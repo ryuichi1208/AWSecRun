@@ -23,7 +23,6 @@ awsecrun /usr/bin/env --key database-credentials
 - Retrieve secrets from AWS Secrets Manager
 - Set secrets as environment variables (parses JSON)
 - Support for multiple secrets
-- JSON logging
 - Interface-based design for easy testing
 
 ## AWS Configuration
@@ -39,7 +38,3 @@ docker run -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY ryuichi1208/awsecrun /b
 ## Documentation
 
 For more information on usage, architecture, and contributing, see the [full documentation](https://github.com/ryuichi1208/AWSecRun/wiki).
-
-## License
-
-MIT
