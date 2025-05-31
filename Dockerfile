@@ -14,7 +14,7 @@ COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build -o /awsecrun
 
 # Final stage
-FROM alpine:3.18
+FROM alpine:3.22
 
 # Install CA certificates for HTTPS connections
 RUN apk --no-cache add ca-certificates
